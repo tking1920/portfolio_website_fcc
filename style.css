@@ -1,12 +1,16 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: lightblue;
+}
+
+.nav-link {
+    font-size: 25px;
 }
 
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    background: url('images/IMG_5978.jpeg');
     background-size:cover;
     position:relative;
 }
@@ -23,7 +27,20 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: whitesmoke;
+}
+#about h1 {
+    font-size: 5rem;
+    text-align: center;
+    text-decoration: underline;
+}
+#about p{
+    font-size: 20px;
+
+}
+
+#about li {
+    font-size: 20px;
 }
 
 /* spacing on all sections */
@@ -53,25 +70,25 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: blue;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid blue;
 }
 
 /* social media icons styling */
 .social-icons {
-    font-size: 36px;
+    font-size: 30px;
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #008000;
+    color: blue;
 }
 .fab {
     color: #000000;
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: lightblue;
     text-align: center;
 }
